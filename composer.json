@@ -1,0 +1,26 @@
+{
+    "name": "huanglongfei/php_frame",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "core\\": "core/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "type": "project",
+    "description": "self php frame work",
+    "authors": [
+        {
+            "name": "Pannio",
+            "email": "1821299140@qq.com"
+        }
+    ],
+    "require": {
+        "duncan3dc/blade": "^4.10",
+        "topthink/think-template": "^2.0",
+        "psr/log": "^1.1",
+        "phpunit/phpunit": "^8.5"
+    }
+}
